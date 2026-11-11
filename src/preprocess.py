@@ -8,4 +8,4 @@ def tokenize_text(text: str) -> list[str]:
     whitespace characters as one separator and returns an empty list for an
     empty or whitespace-only string.
     """
-    return text.split()
+    return text.lower().split()
