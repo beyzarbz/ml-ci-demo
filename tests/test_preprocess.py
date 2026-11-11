@@ -1,5 +1,4 @@
 import pytest
-
 from src.preprocess import tokenize_text
 
 
